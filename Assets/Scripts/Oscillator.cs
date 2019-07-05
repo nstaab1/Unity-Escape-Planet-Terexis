@@ -29,6 +29,10 @@ public class Oscillator : MonoBehaviour
 
     private float CalculateMovementFactor()
     {
+        if( period <= Mathf.Epsilon)
+        {
+            return 0;
+        }
         float cycles = Time.time / period; // grows continually from 0
         const float tau = Mathf.PI * 2; // about 6.28
         float rawSinWave = Mathf.Sin(cycles * tau);
