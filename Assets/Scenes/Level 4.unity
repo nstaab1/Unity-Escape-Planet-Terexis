@@ -1696,31 +1696,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Directional Light
       objectReference: {fileID: 0}
-    - target: {fileID: 3488555957682802828, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16,
-        type: 3}
-      propertyPath: m_Intensity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3488555957682802828, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3488555957682802828, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3488555957682802828, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3488555957682802828, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16,
-        type: 3}
-      propertyPath: m_Lightmapping
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 3488555957682802829, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1775,6 +1750,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3488555957682802828, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3488555957682802828, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3488555957682802828, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3488555957682802828, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3488555957682802828, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f8b132cdbb1c0740beaaf4ee55f5a16, type: 3}

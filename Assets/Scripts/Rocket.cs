@@ -107,7 +107,15 @@ public class Rocket : MonoBehaviour
 
     private void LoadNextScene()
     {
-        SceneManager.LoadScene(1); // todo allow for mote than 2 levels
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if (currentSceneIndex + 1 <= SceneManager.sceneCountInBuildSettings - 1)
+        {
+            SceneManager.LoadScene(currentSceneIndex + 1);
+        } else
+        {
+            LoadFirstScene();
+        }
+         // todo allow for mote than 2 levels
     }
 
     private void LoadFirstScene()
