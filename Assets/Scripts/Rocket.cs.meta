@@ -3,7 +3,14 @@ guid: 71bf7c3174a11434bba3338ff66a1077
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - mainEngineNoiseOne: {instanceID: 0}
+  - mainEngineNoiseTwo: {instanceID: 0}
+  - success: {instanceID: 0}
+  - crash: {instanceID: 0}
+  - mainEngineParticles: {instanceID: 0}
+  - successParticles: {instanceID: 0}
+  - crashParticles: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
